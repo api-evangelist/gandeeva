@@ -1,7 +1,29 @@
 aid: gandeeva
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gandeeva.png
 name: Gandeeva
-description: Gandeeva is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gandeeva Therapeutics is a Vancouver, Canada-based precision-medicine and drug-discovery
+  company that combines cryogenic electron microscopy (cryo-EM) with artificial intelligence
+  and machine learning to visualize druggable transient protein-protein interactions at atomic
+  resolution and design first-in-class molecular glues and engineered antibodies. Its
+  structure-guided platform spans target prediction and validation (SPOTLIGHT), hit
+  identification across virtual and fragment libraries (HYPERFOCUS), and cryo-EM-driven lead
+  optimization (CRYO-CADD), with an oncology-focused pipeline of proximity-inducing small
+  molecules. The company raised a $40M Series A and has run cryo-EM research collaborations
+  with partners including Moderna and Zymeworks. Gandeeva is a private biotechnology company
+  and does not publish a public developer API; this profile is maintained in the API Evangelist
+  network as a company/portfolio record.
 url: https://raw.githubusercontent.com/api-evangelist/gandeeva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Precision Medicine
+- Cryo-EM
+- Artificial Intelligence
+- Machine Learning
+- Structural Biology
+- Oncology
+- Molecular Glues
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://gandeeva.com
+- type: Blog
+  url: https://gandeeva.com/news/
+- type: BlogRSS
+  url: https://gandeeva.com/feed/
+- type: TermsOfService
+  url: https://gandeeva.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://gandeeva.com/privacy-statement-us/
+- type: DomainSecurity
+  url: security/gandeeva-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
